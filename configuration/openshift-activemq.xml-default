@@ -111,7 +111,7 @@
             http://activemq.apache.org/persistence.html
         -->
         <persistenceAdapter>
-            <kahaDB directory="${activemq.data}/kahadb"  ignoreMissingJournalFiles="true"/>
+            <kahaDB directory="${activemq.data}/kahadb"  ignoreMissingJournalfiles="true"/>
         </persistenceAdapter>
 
         <plugins>

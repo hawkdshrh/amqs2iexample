@@ -143,12 +143,12 @@
             <filteredPersistenceAdapters>
                 <filteredKahaDB queue="ActiveMQ.DLQ">
                     <persistenceAdapter>
-                    <kahaDB journalMaxFileLength="32mb" enableJournalDiskSyncs="false" checkForCorruptJournalFiles="true" ignoreMissingJournalFiles="true"/>
+                    <kahaDB journalMaxFileLength="32mb" enableJournalDiskSyncs="false" checkForCorruptJournalFiles="true" ignoreMissingJournalfiles="true"/>
                     </persistenceAdapter>
                 </filteredKahaDB>
                 <filteredKahaDB>
                     <persistenceAdapter>
-                        <kahaDB journalMaxFileLength="16 mb" enableJournalDiskSyncs="true" checkForCorruptJournalFiles="true" ignoreMissingJournalFiles="true"/>
+                        <kahaDB journalMaxFileLength="16 mb" enableJournalDiskSyncs="true" checkForCorruptJournalFiles="true" ignoreMissingJournalfiles="true"/>
                     </persistenceAdapter>
                 </filteredKahaDB>
                 </filteredPersistenceAdapters>
